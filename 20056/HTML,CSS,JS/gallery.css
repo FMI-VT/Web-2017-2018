@@ -1,0 +1,9 @@
+.gallery-thumb{
+  padding: 4px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fdf4e6;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+}

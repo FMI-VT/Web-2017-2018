@@ -1,0 +1,74 @@
+
+
+.header-col{
+min-height:130px;
+text-align:center;
+}
+
+hmtl,body {
+overflow-y:scroll;
+overflow-x:hidden;
+}
+
+
+
+/* Лого */
+.logo-pictures {
+position: relative;
+top:-1px;
+left:20px;
+}
+
+.TUI-logo {
+position:relative;
+top:-80px;
+right:110px;
+/* padding:0px 0px 2px 100px; */
+background:none;
+
+}
+
+
+.logo-main {
+background:none;
+}
+
+/* Лого */
+
+/* Език */
+.language-switch{
+position:relative;
+bottom:-40px;
+right:10px;
+}
+
+.BG-flag {
+
+height:20px;
+width:30px;
+margin:3px;
+}
+
+.EN-flag {
+height:20px;
+width:30px;
+position:relative;
+left:-1px;
+}
+/* Език */
+
+
+
+.span-header{
+margin:77px;
+padding:2px;
+font-style:bold;
+}
+
+.navigation-a:hover {
+background-color:#bceaff;
+text-decoration:none;
+padding-top:22px;
+padding-bottom:22px;
+}
+

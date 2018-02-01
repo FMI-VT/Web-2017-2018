@@ -1,0 +1,382 @@
+* {box-sizing: border-box;}
+body {
+	font-family:'Varela Round', sans-serif;
+	line-height:1.6;
+	color:#3a3a3a;
+	}
+p {
+	font-size: .95em;
+	margin-bottom: 1.8em;
+	text-align:justify;
+
+}
+h2,h3,a {
+	color: #093a58;
+}
+h2,h3,h4 {
+	margin-top:0;
+}
+h4 {
+	margin-bottom: .4em;
+}
+a {
+	text-decoration:none;
+}
+img {
+	max-width:100%;
+}
+#Gallery {
+	font-size:3em;
+	text-align:center;
+	
+}
+#logo {
+	width:35px;
+	height:35px;
+	margin-top:13px;
+	
+}
+.title-ready {
+	font-style: italic;
+    font-weight: 400;
+    font-variant: normal;
+    line-height: normal;
+    letter-spacing: .5px;
+	font-family: Big Noodle Too,impact,sans-serif;
+	font-size: 5rem;
+}
+.title-text {
+	margin-top:-20px;
+	text-align:center;
+	font-size:1.25rem;
+}
+.btn {
+	display: inline-block;
+    vertical-align: middle;
+    padding: 6px 1em;
+    border: none;
+    font-family: FuturaNo2D,century gothic,arial,sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: .025em;
+    text-shadow: none;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+    transition: all .2s;
+    background-color: #ff9c00;
+    color: #fefefe;
+	margin-left:27.5%;
+	border-radius:5px;
+}
+.btn:hover {
+	border-color: #ffb033;
+    background-color: #ffb033;
+}
+.btn:active {
+	
+}
+/* Navigation */
+.name {
+	font-size: 1.40em;
+	margin:0;
+	padding-top:4px;
+}
+.main-nav {
+	margin-top: 5px;
+}
+.name a, .main-nav a {
+	display:block;
+	text-align:center;
+	padding: 10px 15px;
+}
+.main-nav a {
+	font-size: .95em;
+	color: #3acec2;
+	text-transform: uppercase;
+}
+.main-nav a:hover {
+	color:#093a58;
+}
+.second-nav {
+	margin-top: 5px;
+}
+ .second-nav a {
+	display:block;
+	text-align:center;
+}
+.second-nav a {
+	font-size: 1.15em;
+	color: #3acec2;
+	text-transform: uppercase;
+}
+.second-nav a:hover {
+	color:#093a58;
+}
+li.dropdown {
+	display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+}
+.dropdown-content a {
+	font-size: .95em;
+	color: #093a58;
+	text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+	background-color: #3ffff2;
+}
+.dropdown-content a:hover {
+	color:#099a58;
+	
+	}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*Layout Containers*/
+.main-header {
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.banner, .main-footer {
+	text-align:center;
+}
+.banner {
+	color:#fff;
+	background-image:url("lucio.jpg");
+	background-size:cover;
+	padding: 3.2em 0em;
+	margin-bottom:-70px;
+	
+}
+.col {
+	padding-right:1em;
+	padding-left: 1em;
+}
+.main-footer {
+	background:#d9e4ea;
+	padding:32px 0;
+	margin-top:70px;
+}
+.sg-container {
+	height: 545.97px;
+    width: 1011.75px;
+    overflow: hidden;
+	float:left;
+}
+.img-container {
+	background-image: url("blue.jpg");
+	background-size:cover;
+	width:auto;
+	
+}
+.logo-container {
+	height: 545.97px;
+    width: 337.25px;
+    overflow: hidden;
+	
+}
+.sg-container img {
+	width:auto;
+	
+}
+.logo-container img {
+	height:545.98px;
+	
+}
+.ready {
+	padding-left:25%;
+	padding-right:25%;
+}
+
+/* Page Ele */
+.logo {
+	width:420px;
+	height:290px;
+}
+.headline {
+	margin-bottom:0;
+}
+/* Media Queries */
+@media (min-width:769px) {
+	.main-header{
+		background:#fff;
+		width:100%;
+		/*top:0;*/ 
+	}
+	.container {
+		width:80%;
+		margin:0 auto;
+	}
+	.name, .col , #logo {
+		float:left;
+	}
+	.primary, .secondary {
+		width:50%;
+	}
+	.main-nav {
+		float:right;
+
+	}
+	
+	.main-nav li {
+		display:inline-block;
+		margin-left:5px;	}
+	.second-nav {
+		float:bottom;
+	}
+	.second-nav li{
+		display:inline-block;
+		margin-left:5px;
+	}
+	.tagline {
+		font-size:1.4em;
+	}
+	.clearfix::after {
+		content:" ";
+		display:table;
+		clear:both;
+	}
+}
+@media (min-width:1025px) {
+	.container {
+		width:80%;
+		max-width: 1125px;
+	}
+	.primary {
+		width:40%;
+	}
+	.secondary, .tertiary{width:30%;}
+}
+
+/* IMG GALLERY */
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 349px;
+	height: 300px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+	
+    height: 78%;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+/* SLIDESHOW */
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 600px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: 100px;
+  margin-top: -22px;
+  margin-left:-400px;
+  margin-right:-100px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+
+
+
+

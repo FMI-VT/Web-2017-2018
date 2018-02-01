@@ -1,0 +1,39 @@
+
+.header1 , .header2 , .pic1 , .pic2 , .pic3 , .pic4 
+, .article1 , .article2 , .article3 , .article4 ,
+ .pic-header , .price1 , .price2 , .price3 , .price4 {
+color:#13054c;
+position:relative;
+font-style:italic;
+}
+
+
+.deals-col{
+min-height:1300px;
+}
+
+.header1 , .header2 {
+top:40px;
+left:220px;
+}
+
+.pic1 , .pic2 , .pic3 , .pic4 {
+width:300px;
+height:200px;
+top:50px;
+left:30px;
+}
+
+
+.article1 , .article2 , .article3 , .article4 {
+top:80px;
+left:50px;
+}
+
+
+.price1 , .price2 , .price3 , .price4 {
+font-size:18px;
+top:140px;
+right:40px;
+}
+

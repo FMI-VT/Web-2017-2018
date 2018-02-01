@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>jorkata-smartphone.bg</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link rel="icon" href="favicon.png" sizes="32x32" type="image/png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<link href='http://fonts.googleapis.com/css?family=Oleo+Script' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/styles.css">
+	
+  </head>
+  <body>
+  <main>
+	<div class="page">
+	<div class="row">
+		<header class="col-12">
+			<span class="col-2" style="text-align:left">
+				<span>Телефон за връзка:</span><br>
+				<span> 088 611 8996 </span><b>
+			</span>
+			<span class="col-2">
+			<input type="search" id="search" placeholder="Search for...">
+			<button type="submit" id="search" >&#9654;</button>
+			</span>
+			<span class="col-4">
+					<span>Добре дошли в jorkata smartphone!</span><br>
+					<span>Works in over 200 countries, like Jamaica.</span><br>
+			</span>
+			<section class="col-4">
+				<figure>
+				<img class="logo" src="img/jorkata logo2.png">
+				</figure>
+		</header>
+	</div>
+	<div id="mySidenav" class="sidenav">
+		<aside class="col-1">
+			<article>
+				<figure>
+				<img src="img/paypal.png" width="100px" height="38px">
+				</figure>
+				<p>PayPal и кредитни карти.</p>
+			</article>
+			<hr width="50%">
+			<article>
+				<figure>
+				<img src="img/delivery.png" width="80px" height="80px">
+				</figure>
+				<p>Всички поръчки се обработват до 48 часа.</p>
+			</article>
+			<hr width="50%">
+			<article>
+				<figure>
+				<img src="img/garanciq.png" width="120px" height="80px">
+				</figure>
+				<p>+ одължаване</p>
+			</article>
+			
+			<a href="index.html" id="nachalo">Начало</a>
+			<a href="produkti.html" id="produkti">Продукти</a>
+			<a href="zanas.html" id="kontakti" style="z-index: 2">Контакти</a>
+			<a href="zanas.html" id="ekip">Екип</a>
+		</aside>
+			<section class="col-10">
+					
+					<div class="row" style="margin-top:15%">
+  <div class="column">
+    <img src="img/iphonex.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="img/mate10.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="img/note8.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="img/slideshow1.jpg" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="img/iphonex.png" style="width:50%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="img/mate10.png" style="width:50%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="img/note8.png" style="width:50%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="img/slideshow1.jpg" style="width:50%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+	<div class="row">
+    <div class="column">
+      <img class="demo cursor" src="img/iphonex.png" style="width:50%" onclick="currentSlide(1)" alt="Nature and sunrise">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/mate10.png" style="width:50%" onclick="currentSlide(2)" alt="Trolltunga, Norway">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/note8.png" style="width:50%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="img/slideshow1.jpg" style="width:50%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+	</div>
+  </div>
+</div>
+					
+					
+			</section>
+	</div>
+	<footer class="col-12 footer" style="position:absolute">
+			<span class="col-2">
+				<span>All rights reserved by &copy jorkata</span>
+	</footer>
+	</div>
+	</main>
+	<script src="java.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+
+.hotels-col {
+min-height:600px;
+}
+
+
+.FamilyLife , .RiuHelios , .title-hotels1 , .title-hotels2 {
+position:relative;
+font-style:italic;
+color:#13054c;
+}
+
+.FamilyLife {
+top:30px;
+left:20px;
+height:200px;
+width:250px;
+}
+
+.RiuHelios {
+top:80px;
+left:20px;
+height:200px;
+width:250px;
+}
+
+.title-hotels1 , .title-hotels2{
+top:120px;
+}

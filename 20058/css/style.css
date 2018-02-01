@@ -1,0 +1,350 @@
+* {
+  box-sizing: border-box;
+}
+
+/*HEADER*/
+header {
+  padding: 1em;
+}
+
+nav {
+ 	margin-top: 1em;
+  padding: 0 2em;
+}
+
+
+.navbar-nav{
+	display: inline-block;
+	background-color: black;
+	text-align: center;
+	width: 100%;
+	padding: 0;
+}
+
+.nav-link{
+	display: inline-block;
+	color: white;
+}
+
+nav div {
+	float: left;
+	padding: 0;
+	display: inline-block;
+}
+
+nav li {
+	display: inline;
+}
+a:link {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+/*END OF HEADER*/
+
+/*FOOTER*/
+.contacts, .sponsors
+{
+	margin: 2em 0;
+	text-align: center;
+}
+
+footer img {
+	width: 80%;
+	height: auto;
+}
+
+footer {
+	text-align: center;
+}
+
+footer div, footer p {
+	display: inline-block;
+}
+
+footer div {
+	float: left;
+}
+
+/*END OF FOOTER*/
+
+/*INDEX*/
+.teamImg {
+	padding: 0 2em;
+}
+
+.mapHolder {
+	padding: 0 1.8em;
+}
+
+.map {
+	margin: 1em 0;
+	display: table;
+	width: 100%;
+	text-align: center;
+	height: 7em;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.gameRow {
+	padding: 0 2em;
+	font-size: 1.2em;
+	font-weight: bold;
+	display: table-cell;
+	width: 33.33%;
+	vertical-align: middle;
+	height: auto;
+}
+
+.otbor
+{
+	text-align: left;
+	color: white;
+}
+.rezultat 
+{
+	text-align: center;
+	color: black;
+}
+
+.enemy
+{
+	text-align: right;
+	color: white;
+}
+
+
+#inferno
+{
+	background-image: url("../img/inferno.png"); 
+}
+
+#train
+{
+	background-image: url("../img/train.png"); 
+}
+
+#train
+{
+	background-image: url("../img/train.png"); 
+}
+
+#dust
+{
+	background-image: url("../img/dust2.png"); 
+}
+
+#cache
+{
+	background-image: url("../img/cache.png"); 
+}
+
+#overpass
+{
+	background-image: url("../img/overpass.png"); 
+}
+/*END OF INDEX*/
+
+/*TEAM*/
+.teamHolder {
+	height: 28em;
+	text-align: center;
+	margin: 1em 0;
+	list-style-type: none;
+}
+
+.teamProfile img
+{
+	width: 100%;
+	height: auto;
+}
+
+.info {
+	height: 11em;
+}
+
+.teamProfile
+{
+	padding: 0.5em;
+	margin: 0.5%;
+	float: left;
+	width: 19%;
+	height: 100%;
+	border: solid; 
+	background-image: url("../img/brasil.png"); 
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+/*END OF TEAM*/
+
+/*TITLES*/
+.mySlides {
+ 	display: none;
+}
+
+
+.cursor {
+	cursor: pointer;
+}
+
+.slideHolder {
+ 	position: relative;
+}
+
+
+.prev,
+.next {
+	top: 48%;
+	cursor: pointer;
+	position: absolute;
+	width: auto;
+	padding: 16px;
+	margin-top: -50px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	-webkit-user-select: none;
+}
+
+
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover,
+.next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+
+.caption-container {
+	text-align: center;
+	width: 100%;
+	background-color: #222;
+	padding: 2px 16px;
+	color: white;
+}
+
+
+.column {
+	float: left;
+	width: 16.66%;
+}
+
+
+.demo {
+	opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+	opacity: 1;
+}
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td, th {
+	border: 1px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+/*END OF TITLES*/
+
+/*SPONSORS*/
+.sponsorImg img{
+	padding: 2em;
+	width: 100%;
+	height: auto;
+}
+/*END OF SPONSORS*/
+
+/*ABOUT*/
+
+.history
+{
+	background-image: url("img/1.jpg"); 
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+/*END OF ABOUT*/
+
+/*CONTACTS*/
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+input[type=submit] {
+	background-color: blue;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: black;
+}
+
+#form {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+}
+/*END OF CONTACTS*/
+
+
+
+
+/*MEDIA*/
+@media screen and (max-width: 480px) {
+    .gameRow{
+    	padding: 0 0.5em;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+
+    .teamHolder {
+    	height: 100%;
+     	text-align: center;
+    }
+
+    .teamProfile p {
+    	font-size: 2em;
+    }
+
+    .teamProfile{
+    	padding: 2em;
+    	width: 100%;
+    	margin: 1em 0;
+    }
+}
+/*END OF MEDIA*/

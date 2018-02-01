@@ -1,0 +1,41 @@
+.page-title{
+  padding: 18px 100px 30px;
+}
+.grid-main{
+  max-width: 1200px;
+  padding: 0px 12px;
+  margin: auto;
+}
+.grid-main h3{
+  color: #903216;
+}
+ul{
+  margin-left: -22px;
+}
+.offers{
+  margin-left: 50px;
+}
+.right-offers{
+  margin-left: 30px;
+}
+#main-nav{
+  padding-top: 12px;
+  overflow: hidden;
+}
+ul a {
+  font-size: 2rem;
+  font-family:sans-serif;
+  color:#fff;
+  padding:15px;
+}
+ul a:hover{
+  color:#903216;
+  text-decoration: none;
+  background-color:#fff;
+}
+
+.logo-image img:hover{
+  padding-top:10px;
+  width: 252px;
+  height: 100px;
+  cursor:pointer;

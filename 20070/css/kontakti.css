@@ -1,0 +1,147 @@
+body {
+	font-family: Gabriola, serif;
+	font-size: 20px;
+
+}
+
+header {
+	position: relative;
+	display: block;
+	height: 90px;
+}
+
+header > div {
+	display: inline-table;
+}
+
+.logo, .slogan {
+	
+	position: relative;
+	width: 240px;
+	height: 65px;
+	padding-right: 20px;
+	margin: 0 auto;
+	float: left;
+}
+
+.logo {
+	margin-right: 10px;
+}
+
+.logo figure {
+	margin: 0;
+	display: inline-table;
+}
+
+.slogan > p {
+	margin: auto;
+    position: absolute;
+    width: 460px;
+    height: 60px;
+    padding: 12px;
+    font-size: 2em;
+
+}
+
+header > nav {
+	display: inline-block;
+	margin-top: 60px;
+	
+}
+
+nav > a {
+	display: inline-block;
+	background-color: #800000;
+	color: white;
+	width: 130px;
+	height: 30px;
+	text-align: center;
+	margin: 0 auto;
+	text-decoration: none;
+	vertical-align: center;
+	border-radius: 8px;
+}
+
+nav > a:hover {
+	color: black;
+}
+
+main {
+	min-height: 500px;
+	margin-top: 50px;
+	
+}
+
+footer {
+	height: 50px;
+	position: relative;
+	bottom: 2px;
+	text-align: center;
+}
+
+.nav-second a {	
+	display: inline-block;
+	background-color: blue;
+	color: white;
+	width: 120px;
+	height: 20px;
+	text-align: center;
+	margin: 0 auto;
+	text-decoration: none;
+	vertical-align: center;
+}
+
+.nav-second a:hover {
+	color: red;
+}
+
+.active{
+				color: black;}
+				
+				
+				.table2
+    {background-color: #800000;
+	color: white; 
+	width: 100%;
+	padding: 10px;
+	text-align: left;}
+	
+
+	
+td 
+  {font-weight: bold;
+  font-size: 15px;
+  padding: 5px;}
+  
+input, select
+ {border-color: #800000;
+  border-radius: 10px;
+  padding: 10px;}
+  
+
+	
+textarea 
+    {border: solid 2px #800000;
+	overflow: auto;
+	width: 99%;
+	border-radius: 10px;
+	height: 80px;}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,88 @@
+/* Слайдове */
+.slides{
+overflow:hidden;
+text-align:center;
+}
+
+.row {
+	margin-bottom: 2em;
+}
+
+.slide-active {
+	width: 100%;
+}
+
+.slide-active img {
+	width: 600px;
+	height: 400px;
+}
+
+.slide-hidden {
+	display: none;
+}
+
+#next, #prev {
+	width: 80%;
+	height: auto;
+}
+
+.advert1 , .advert2 , .advert3{
+height:100%;
+width:75%;
+margin: 0 auto;
+}
+/* Слайдове */
+
+/* Съдържание */
+.content-col {
+min-height:800px;
+background-image: url("../../Снимки/Bulgaria.png");
+background-position:center;
+background-repeat: no-repeat;
+background-size:cover;
+
+}
+
+/* Съдържание */
+
+.Zaglavie , .keyfacts , .keyfacts-li , .content-p {
+font-style:italic;
+position:relative;
+color:#13054c;	
+}
+
+.Zaglavie {
+left:330px;
+top:20px;
+font-size:40px;
+}
+
+.keyfacts {
+font-size:30px;
+top:30px;
+display:border;
+}
+
+.keyfacts-li{
+top:30px;
+margin:30px;
+font-size:25px;
+list-style-type:none;
+}
+
+.article{
+position:relative;
+top:35px;
+display:border;
+border-right:3px solid #13054c;
+}
+
+.content-p{
+font-size:20px;
+top:140px;
+}
+
+ {
+	width: 600px;
+	height: 400px;
+}

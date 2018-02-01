@@ -1,0 +1,13 @@
+.mySlides img {
+	width: 550px;
+	height: 465px;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+}
+
+.column img {
+	width: 190px;
+	height: 160px;
+	
+}

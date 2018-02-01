@@ -1,0 +1,19 @@
+.content-contacts{
+min-height:500px;
+}
+
+.contacts-p , .title-contacts {
+color:#13054c;
+position:relative;
+font-style:italic;
+}
+
+.title-contacts{
+left:300px;
+top:60px;
+}
+
+.contacts-p{
+left:130px;
+top:100px
+}

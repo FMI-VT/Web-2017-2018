@@ -1,0 +1,331 @@
+html {
+	min-height:100%;
+	max-width:100%;
+}
+*{
+	padding:0px;
+}
+[class*="col-"]{
+	float:left;
+	padding:5px;
+
+}
+body{
+	float:center;
+	text-align:center;
+	background-color:#EDF5E1;
+	background-image:url("/Web/Georgi.Dyakov/img/background.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	min-height:100%;
+	max-width:100%;
+}
+
+.col-12{
+	z-index: 1;
+}
+
+header{
+	//border:3px solid red;
+	background-color:rgba(76, 175, 80, 0.6);
+	font: 16px/1.3 'Oleo Script', Helvetica, sans-serif;
+    color: #2b2b2b;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+	max-width:80%;
+}
+footer{
+	//border:3px solid lightblue;
+	border-radius: 100px;
+	background-color:rgba(76, 175, 80, 0.6);
+	font: 16px/1.3 'Oleo Script', Helvetica, sans-serif;
+    color: #2b2b2b;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+}
+
+.footer {
+	position: relative;
+    bottom: 0px;
+	overflow:hidden;
+}
+
+aside{
+	top: 50px;
+	height:500px;
+	//border:3px solid yellow;
+	border-radius: 50px;
+	background-color:rgba(76, 175, 80, 0.6);
+	font: 16px/1.3 'Oleo Script', Helvetica, sans-serif;
+    color: #2b2b2b;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+	
+}
+section{
+	//border:3px solid black;
+	border-radius: 100px;
+	//background-color:#8EE4AF;
+	font: 16px/1.3 'Oleo Script', Helvetica, sans-serif;
+    color: #2b2b2b;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+}
+.logo{
+	float: right;
+	width: 150px;
+	transform: rotate(15deg);
+}
+nav{
+	display:inline-block;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.page{
+	max-width: 100%;
+	min-height: 100%;
+}
+.iphonex {
+	border-radius:25px;
+	padding-right:40px;
+	padding-left:10px;
+	width:150px;
+	height:100px;
+	background-image: url('/Web/Georgi.Dyakov/img/iphonex.png');
+	transition:width 2s,height 4s;
+	transition: width 2s, height 4s;
+	transition-delay:1s;
+}
+.note8 {
+	border-radius:25px;
+	padding-right:40px;
+	padding-left:10px;
+	width:150px;
+	height:100px;
+	background-image: url('/Web/Georgi.Dyakov/img/note8.png');
+	transition:width 2s,height 4s;
+	transition: width 2s, height 4s;
+	transition-delay:1s;
+}
+.iphone6{
+	border-radius:25px;
+	padding-right:40px;
+	padding-left:10px;
+	width:150px;
+	height:100px;
+	background-image: url('/Web/Georgi.Dyakov/img/mate10.png');
+	transition:width 2s,height 4s;
+	transition: width 2s, height 4s;
+	transition-delay:1s;
+}
+.iphone6:hover {
+    width: 430px;
+	height: 430px;
+}
+.note8:hover {
+    width: 430px;
+	height: 430px;
+}
+.iphonex:hover {
+    width: 430px;
+	height: 430px;
+}
+table{
+	border:1px solid black;
+	border-radius:25px;
+	padding-right:40px;
+	padding-left:10px;
+	float:left;
+}
+/* menu icon */
+
+
+/* navigationbar */
+
+#mySidenav a {
+	z-index: 2;
+    position: fixed;
+    left: -120px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 130px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+}
+#mySidenav a:hover {
+    left: 0;
+}
+#nachalo {
+    top: 20px;
+    background-color: rgba(255, 204, 179, 0.8);
+}
+
+#produkti {
+    top: 80px;
+    background-color: rgba(255, 204, 179, 0.8);
+}
+
+#kontakti {
+    top: 140px;
+    background-color: rgba(255, 204, 179, 0.8);
+}
+
+#ekip{
+    top: 200px;
+    background-color: rgba(255, 204, 179, 0.8);
+}
+
+/* navigationbar */
+
+.row {
+	margin: 0;
+}
+#search{
+	height:30px;
+	background: rgba(255, 204, 179, 0.8);
+	font-size: 14pt;
+	float: left;
+	border-radius: 5px;
+}
+
+/* slideshow */
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  background-color:rgba(76, 175, 80, 0.6);
+  float: left;
+  width: 25%;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+	background-color:rgba(76, 175, 80, 0.6);
+  display: none;
+}
+
+.cursor {
+  cursor: pointer
+}
+
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+img {
+  margin-bottom: -4px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.debug {
+    border-style: solid;
+    border-width: 3px;
+}
+
+header.debug {
+    border-color: red;
+}
+ 

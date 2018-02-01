@@ -1,0 +1,110 @@
+body {
+	font-family: 'Roboto', serif;
+	font-size: 1em;
+}
+
+header {
+	position: relative;
+	display: block;
+	height: 110px;
+}
+
+header > div {
+	display: inline-table;
+}
+
+.logo, .slogan {
+	position: relative;
+	width: 195px;
+	height: 25px;
+	padding-right: 20px;
+	margin: 0 auto;
+	float: left;
+}
+
+.logo {
+	margin-right: 10px;
+}
+
+.logo figure {
+	margin: 0;
+	display: inline-table;
+}
+
+.slogan > p {
+	margin: auto;
+    position: absolute;
+    width: 460px;
+    height: 60px;
+    padding: 12px;
+    font-size: 2em;
+
+}
+
+header > nav {
+	display: inline-block;
+	margin-top: 25px;
+}
+
+nav > a {
+	display: inline-block;
+	background-color: red;
+	color: white;
+	width: 120px;
+	height: 30px;
+	text-align: center;
+	margin: 0 auto;
+	text-decoration: none;
+	vertical-align: center;
+	padding: 5px;
+}
+
+nav > a:hover {
+	color: black;
+	background-color: orange;
+}
+
+main {
+	min-height: 500px;
+}
+
+footer {
+	height: 50px;
+	position: relative;
+	bottom: 2px;
+	text-align: center;
+}
+
+<!--.nav-second a {	
+	display: inline-block;
+	background-color: blue;
+	color: white;
+	width: 120px;
+	height: 20px;
+	text-align: center;
+	margin: 0 auto;
+	text-decoration: none;
+	vertical-align: center;
+}
+
+.nav-second a:hover {
+	color: red;
+}
+.menu{
+	border-radius: 10px;
+}
+header, footer, main{
+	border : 1px solid red;
+	border-radius: 5px;
+}
+
+
+.home {
+       padding-top: 50px;
+       text-align: center;
+
+}
+
+.nadpis {
+       text-align: center;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="video game">
+    <meta name="keywords" content="world,of,warcraft,game,mmorpg">
+    <meta name="author" content="Andrey Atanasov">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Wold Of Warcraft</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.6/css/swiper.min.css">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar nav-menu">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html"><img class="img-responsive" src="images/logo.png" alt="logo"></a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a class="active" href="index.html">Начало</a></li>
+              <li><a href="about-the-game.html">За играта</a></li>
+              <li><a href="gallery.html">Галерия</a></li>
+              <li><a href="faq.html">Въпроси и отговори</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    </header>
+<div id="slider">
+  <!-- Slider main container -->
+  <div class="swiper-container home">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <img class="img-responsive" src="images/home-slide2.jpg" alt="gamepic2">
+      </div>
+
+      <div class="swiper-slide">
+        <img class="img-responsive" src="images/home-slide3.jpg" alt="gamepic3">
+      </div>
+
+      <div class="swiper-slide">
+        <img class="img-responsive" src="images/home-slide.jpg" alt="gamepic1">
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="container">
+    <p>World of Warcraft (често наричана WoW) е MMORPG (Massive Multiplayer Online RolePlaying Game – Масова онлайн ролева игра за много играчи), продукт на Blizzard Entertainment. Както показва и името, играта се развива в света на игрите от поредицата Warcraft. В края на 2010 и началото на 2011 г. играта има повече от 12 милиона активни потребители, а към месец август 2015 г. броят на активните потребители е 5,6 милиона.</p>
+  </div>
+<footer>
+    <div class="container footer">
+      <div class="nav">
+        <a href="index.html">Начало</a>
+        <a href="about-the-game.html">За играта</a>
+        <a href="gallery.html">Галерия</a>
+        <a href="faq.html">Въпроси и отговори</a>
+      </div>
+      <span class="rights">All rights reserved &copy;</span>
+    </div>
+</footer>
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.6/js/swiper.min.js"></script>
+    <script>
+    var mySwiper1 = new Swiper ('.home', {
+// Optional parameters
+direction: 'horizontal',
+loop: false,
+slidesPerView: 1,
+centeredSlides: true,
+speed: 600,
+mobile: true,
+
+watchSlidesProgress: true,
+// If we need pagination
+
+
+});
+    </script>
+  </body>
+</html>

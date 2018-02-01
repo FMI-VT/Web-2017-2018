@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, inital-scale=1.0">
+		<title>Events</title>
+		<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/contacts.css">
+	</head>
+	<body>
+	<header class="main-header">
+			<div class="container clearfix">
+				<img src="img/logo.png" alt="Missing" id="logo">
+				<h1 class="name"><a href="index.html">UFC Bulgaria</a></h1>
+				<ul class="main-nav">
+				<li><a href="index.html">Начало</a></li>
+					<li><a href="gallery.html">Галерия</a></li>
+					<li><a href="news.html">Новини</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropbtn">Още за UFC</a>
+						<div class="dropdown-content">
+							<a href="fighters.html">Боици</a>
+							<a href="tickets.html">Билети</a>
+						</div>
+					</li>
+					<li><a href="contacts.html">Контакти</a></li>
+				</ul>
+			</div>
+		</header> <!--/.main-header-->
+		<div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">Име</label>
+    <input type="text" id="fname" name="firstname" placeholder="Име..">
+
+    <label for="lname">Фамилия</label>
+    <input type="text" id="lname" name="lastname" placeholder="Фамилия..">
+
+    <label for="country">Относно</label>
+    <select id="country" name="country">
+      <option value="australia">Въпрос</option>
+      <option value="canada">Предложение</option>
+      <option value="usa">Запитване</option>
+    </select>
+
+    <label for="subject">Коментар:</label>
+    <textarea id="subject" name="subject" placeholder="Коментар.." style="height:200px"></textarea>
+
+    <input type="submit" value="Изпрати">
+
+  </form>
+</div>
+<footer class="main-footer">
+			<ul class="second-nav">
+					<li><a href="index.html">Начало</a></li>
+					<li><a href="gallery.html">Галерия</a></li>
+					<li><a href="news.html">Новини</a></li>
+					<li><a href="fighters.html">Бойци</a></li>
+					<li><a href="tickets.html">Билети</a></li>
+					<li><a href="contacts.html">Контакти</a></li>
+			</ul>
+			<span>&copy;2017 UFC Bulgaria Official</span>
+			
+		</footer>
+	</body>
+</html>

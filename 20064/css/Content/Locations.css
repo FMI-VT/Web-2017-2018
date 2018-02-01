@@ -1,0 +1,33 @@
+
+.locations-col{
+min-height:600px;
+}
+
+.nesebar-header , .sunnybeach-header , .nesebar-p , .nesebar-logo , .sunnybeach-logo {
+color:#13054c;
+position:relative;
+font-style:italic; 
+}
+
+
+.nesebar-header {
+left:460px;
+}
+
+.sunnybeach-header {
+left:410px;
+}
+
+.nesebar-p {
+top:50px;
+}
+
+.nesebar-logo {
+left:270px;
+top:10px;
+}
+
+.sunnybeach-logo{
+left:250px;
+top:10px;
+}

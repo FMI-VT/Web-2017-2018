@@ -1,0 +1,122 @@
+body { background-color:dimgrey}
+
+#top { background-color:deepskyblue;
+       height: 200px;
+       width: 100%;
+      }
+#head { font-size: 30px;
+        color: white;
+        padding: 20px;} 
+
+        a:link{text-decoration:none}
+        a:visited{text-decoration: none}
+        a:hover{text-decoration: none}
+
+#game { color:white;
+        font-size: 20px;}
+
+li { display:inline;
+     float:right;
+     padding:0 10px 0 10px;}
+
+#ltext { font-size:20px;
+    color: white;
+    float:left;
+    text-align:center;
+    width:50%;
+    height:400px;
+    }
+
+#mid { float: right;
+      height:30%;
+       width: 30%;}
+
+#logo { height: 100%;
+        width: 100%;
+        display: inline;}
+
+#ltext1 { font-size:20px;
+    color:white;
+    text-align:center;
+    display:block;
+    width:100%;
+    height:300px;
+    }
+
+#lol1 { background-color: deepskyblue;
+        width:97%;
+        height:150px;
+        margin:20px;
+        text-align: center;
+        padding: 20px;}
+
+#img { width:70%;
+      height:60%;
+     margin:20%;}
+
+#lolbox1 { color:white;
+        font-size: 48px;}
+
+#current {color:black;
+          font-size:20px;}
+
+.clock {
+  font-size: 3em;
+  float:left;
+}
+
+#p2 { width: 30%;
+      height: 300px;
+    padding:20px;
+    float:left;} 
+
+#p1 { width: 30%;
+      height: 300px;
+    padding:20px;
+    float:right;} 
+
+#p3 { width: 30%;
+      height: 300px;
+    padding:20px;
+    margin-left:33%;
+    margin-right:37%;} 
+
+#ltext2 { font-size:20px;
+    color:white;
+    text-align:center;
+    display:block;
+    width:100%;
+    height:200px;}
+
+button { background-color:deepskyblue;
+         color:white;
+         font-size: 20px;}
+
+#b1{ float:left;}
+
+#b2{float:right;}
+
+#b3{margin-left:43%;
+    margin-right:37%;}
+    
+#img1 { width:200px;
+        height:150px;
+        float:left;}
+
+#img2 { width:150px;
+        height:150px;
+        float:right;}
+
+
+
+
+
+#ltext3 { font-size:20px;
+    color:white;
+    margin-left:20%;
+    margin-right:20%;
+    text-align:center;
+    display:inline;
+    width:30%;
+    height:200px;}
+

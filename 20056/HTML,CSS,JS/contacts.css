@@ -1,0 +1,49 @@
+.page-title{
+  padding: 18px 100px 30px;
+}
+.grid-main{
+  max-width: 1200px;
+  padding: 0px 12px;
+  margin: auto;
+}
+.grid-main h3{
+  color: #903216;
+}
+.content{
+  margin-left: 110px;
+  margin-bottom: 20px;
+}
+.content div h4{
+  line-height: 25px;
+}
+.day-wrapper{
+  display: table-row;
+  border: 1px #ececec;
+  border-collapse: collapse;
+}
+.day-title{
+  margin: 0;
+  text-transform: uppercase;
+  padding: 8px 12px;
+}
+.day-data{
+  display: table-cell;
+}
+iframe{
+  margin-bottom: -22px;
+}
+#main-nav{
+  padding-top: 12px;
+  overflow: hidden;
+}
+ul a {
+  font-size: 2rem;
+  font-family:sans-serif;
+  color:#fff;
+  padding:15px;
+}
+ul a:hover{
+  color:#903216;
+  text-decoration: none;
+  background-color:#fff;
+}
